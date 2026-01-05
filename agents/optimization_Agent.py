@@ -1,7 +1,7 @@
 
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyBxJfg5ly3nL-Feer4dAh0jY8oO5-iPIX8")
+genai.configure(api_key="YOUR_API_KEY")
 
 def optimization_agent(state):
     metrics = state["metrics"]
